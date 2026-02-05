@@ -1,1 +1,0 @@
-# 24bai70874-exp2-Ayush-Sharma
