@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.profile-card {
+  width: 320px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-10px);
+}
+
+.profile-image img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid rgba(255, 255, 255, 0.4);
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.name {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.role {
+  font-size: 14px;
+  color: #ddd;
+  margin-bottom: 15px;
+}
+
+.bio {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 18px;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: #ffd86b;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.follow {
+  background: #38bdf8;
+  color: #0f172a;
+}
+
+.skills span:hover {
+  background: #38bdf8;
+  color: #0f172a;
+}
+
+
+.message {
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.buttons button:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+.skills {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.skills span {
+  padding: 6px 14px;
+  font-size: 12px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+  cursor: default;
+  transition: all 0.3s ease;
+}
+
+.skills span:hover {
+  background: #ffd86b;
+  color: #333;
+  transform: translateY(-2px);
+}
